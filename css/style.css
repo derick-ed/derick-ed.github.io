@@ -55,11 +55,11 @@ div.footer hr {
    
    div.header {
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
       top: 0;
       left: 0;
       right: 0;
-      font-size: 5vw;
+      font-size: 1vw;
       
        }
    div.footer {
