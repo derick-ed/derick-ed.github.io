@@ -1,7 +1,7 @@
 body {
       
       font-family:Helvetica;
-      color: black;
+      
 }
 
 div.header {
@@ -10,8 +10,11 @@ div.header {
       left: 8%;
       right: 8%;
       font-size: 110%;
+           }
+div.header a{
       color: black;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +29,7 @@ li {
 li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 50px;
   text-decoration: none;
 }
 
@@ -56,11 +59,12 @@ div.footer hr {
    
    div.header {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       top: 0;
       left: 0;
       right: 0;
-      font-size: 3vw;
+      font-size: 4vw;
+      
       
        }
    div.footer {
