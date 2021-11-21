@@ -1,7 +1,6 @@
 body {
       
       font-family:Helvetica;
-      color: black;
 }
 
 div.header {
@@ -10,6 +9,7 @@ div.header {
       left: 8%;
       right: 8%;
       font-size: 110%;
+      color: black;
 }
 ul {
   list-style-type: none;
@@ -59,7 +59,7 @@ div.footer hr {
       top: 0;
       left: 0;
       right: 0;
-      font-size: 1vw;
+      font-size: 5vw;
       
        }
    div.footer {
