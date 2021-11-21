@@ -4,18 +4,24 @@ body {
       color: black;
 }
 
-div.header {
-      font-size: 10vw;
-      margin-top: 3%;
-      marin-left: 5%;
-      margin-right: 5%;
-      
-       }
-   
-   div a {
-      text-decoration:none;
-      
-     }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
    div.footer {
    
