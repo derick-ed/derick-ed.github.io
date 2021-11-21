@@ -1,6 +1,7 @@
 body {
       
       font-family:Helvetica;
+      color: black;
 }
 
 div.header {
@@ -59,7 +60,7 @@ div.footer hr {
       top: 0;
       left: 0;
       right: 0;
-      font-size: 5vw;
+      font-size: 3vw;
       
        }
    div.footer {
