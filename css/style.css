@@ -9,6 +9,7 @@ div.header {
       position: absolute;
       left: 8%;
       right: 8%;
+      font-size: 110%;
 }
 ul {
   list-style-type: none;
@@ -26,7 +27,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: black;
 }
 
    div.footer {
@@ -55,7 +55,7 @@ div.footer hr {
    
    div.header {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-around;
       top: 0;
       left: 0;
       right: 0;
