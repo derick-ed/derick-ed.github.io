@@ -1,24 +1,29 @@
-div.header {
-      position: absolute;
-      top: 1%;
-      left: 20%;
-      right: 20%;
+body {
+      
+      font-family:Helvetica;
       color: black;
+}
+
+div.header {
+      font-size: 1vw;
+      margin-top: 1%;
+      marin-left: 5%;
+      margin-right: 5%;
+      
        }
    
    div a {
       text-decoration:none;
-      font-family:Georgia;
-      color:black;
+      
      }
   
    div.footer {
    
    position: absolute;
-   left: 20%;
-   right: 20%;
+   left: 5%;
+   right: 5%;
    bottom: 0;
-   color: black;
+   
    
    }
 
@@ -40,7 +45,7 @@ div.footer hr {
       top: 0;
       left: 1%;
       right: 1%;
-      color: black;
+      
        }
    div.footer {
    
@@ -48,7 +53,7 @@ div.footer hr {
    left: 1%;
    right: 1%;
    bottom: 0;
-   color: black;
+   
   
    }
 }
