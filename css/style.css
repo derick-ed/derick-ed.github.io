@@ -57,15 +57,16 @@ div.footer hr {
       display: flex;
       justify-content: space-around;
       top: 0;
-      left: 1%;
-      right: 1%;
+      left: 0;
+      right: 0;
+      font-size: 5vw;
       
        }
    div.footer {
    
    position: absolute;
-   left: 1%;
-   right: 1%;
+   left: 0;
+   right: 0;
    bottom: 0;
    
   
