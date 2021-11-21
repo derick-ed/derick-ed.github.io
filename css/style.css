@@ -7,8 +7,8 @@ body {
 div.header {
       
       position: absolute;
-      left: 8%;
-      right: 8%;
+      left: 15%;
+      right: 15%;
       font-size: 17px;
            }
 div.header a{
@@ -36,8 +36,8 @@ li a {
    div.footer {
    
    position: absolute;
-   left: 8%;
-   right: 8%;
+   left: 15%;
+   right: 15%;
    bottom: 0;
    
    
