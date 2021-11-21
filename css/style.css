@@ -16,7 +16,10 @@ div.header {
       text-decoration:none;
       
      }
-  
+div.header a {
+      
+     padding: 8px;
+}
    div.footer {
    
    position: absolute;
