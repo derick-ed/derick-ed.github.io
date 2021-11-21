@@ -4,6 +4,12 @@ body {
       color: black;
 }
 
+div.header {
+      
+      position: absolute;
+      left: 8%;
+      right: 8%;
+      
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,8 +32,8 @@ li a {
    div.footer {
    
    position: absolute;
-   left: 5%;
-   right: 5%;
+   left: 8%;
+   right: 8%;
    bottom: 0;
    
    
