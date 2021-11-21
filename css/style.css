@@ -1,6 +1,7 @@
 body {
       
       font-family:Helvetica;
+      color: #424345;
       
 }
 
@@ -12,7 +13,7 @@ div.header {
       font-size: 17px;
            }
 div.header a{
-      color: black;
+      color: #424345;
 }
 
 ul {
