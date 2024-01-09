@@ -18,7 +18,7 @@ div.header a { text-decoration: none; color: inherit;}
   
 div.header {
          
-         margin-top: auto;
+         margin-top: 0vh;
          margin-left: auto;
          margin-right: auto;
          font-size: 1.3em;
