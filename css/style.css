@@ -9,8 +9,8 @@ body {
       line-height: 20.5px;
       } 
   
-h1 {font-weight: 600; font-size: 20px;}
-h2 {font-weight: 600; font-size: 18px;}
+h1 {font-weight: 800; font-size: 20px;}
+h2 {font-weight: 800; font-size: 18px;}
 p  {line-height: 25px;}
   
 div.header a { text-decoration: none; color: inherit;}
