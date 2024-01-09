@@ -25,12 +25,7 @@ div.header {
          font-weight: bold;
          }
   
-@media only screen and (max-width: 1024px) {
-      div.header {
-      margin-top: 3vh;
-      margin-left: 2.5vw;
-      margin-right: 2.5vw;
-      }}
+
   
 @media only screen and (max-width: 767px) {
       div.header {
