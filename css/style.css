@@ -15,8 +15,6 @@ div.header a { text-decoration: none; color: inherit;}
   
 div.header {
          margin-top: 5vh;
-         font-size: 1.3em;
-         font-weight: bold;
          }
   
 @media only screen and (max-width: 767px) {
