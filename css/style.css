@@ -6,6 +6,7 @@ body {
       font-style: normal;
       color: rgb(29, 29, 31);
       margin: auto;
+      line-height: 10px;
       } 
  
 p  {line-height: 25px;}
