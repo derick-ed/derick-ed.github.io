@@ -1,5 +1,5 @@
 body {
-      width: 60%;
+      width: 60vw;
       font-size: 17px;
       font-family: Soehne, Helvetica, sans-serif;
       font-weight: 400;
@@ -16,8 +16,8 @@ div.header {
          line-height: 10px;
            }
   
-@media only screen and (max-width: 767px) {
-      body{width: 100%;
-           margin: auto;
+@media only screen and (max-width: 900px) {
+      body{width: 100vw;
+           margin: 2vw;
           }
 }
