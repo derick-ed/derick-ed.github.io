@@ -17,7 +17,7 @@ div.header {
            }
   
 @media only screen and (max-width: 767px) {
-      body{width: 100;
+      body{width: 100%;
            margin: auto;
           }
 }
