@@ -11,8 +11,15 @@
      
   <div class="header"><h2><a href="/">Derick Edgar's Blog</a></h2><hr></div>
   <div class="titles" style="margin-top:20vh;">
-
-    
+  <h2>Benchmarking "Hello, World!"</h2>
+  <h3>Six different views of the execution of "Hello, World!" show what is often missing in today's tools
+  </h3>
+  <p>"A good performance evaluation provides a deep understanding of a system's behavior, quantifying not only the overall behavior, but also its internal mechanisms and policies. It explains why a system behaves the way it does, what limits that behavior, and what problems must be addressed in order to improve the system."10</p>
+  <p>As software moves off the desktop and into data centers, and cell phones use server requests as the other half of apps, the observation tools for large-scale distributed transaction systems are not keeping up with the complexity of the environment. Exploring a simpler environment can help expose some of the problems that confront today's tool users and tool builders. There is a lot to be learned from careful observation of a program and its complete surrounding context, even one as trivial as "Hello, World!" This article walks through six different views of the execution of "Hello, World!" to see what is often missing in today's tools; the same analysis applies to complex datacenter software. Tool designers and tool users must insist on filling in the gaps. If you can't see it, you can't fix it.
+  </p>
+  <p>Too often a service provider has a performance promise to keep ("99 percent of all web page requests will be served within 800 milliseconds...") but few tools for measuring the existence of laggard transactions, and none at all for understanding their root causes. Such promises are built on sand.</p>
+  <p>Figure 1 is part of a single web-search query that takes 160 milliseconds, shown across the top line, with the partial call tree of the remote services it uses shown underneath (circa 2005). That query is, in fact, spread out across some 2,000 servers, each doing part of the search. The diagram shows part of the top-level RPC (remote procedure call) tree, with the work distributed across time on the x-axis and across different servers on the y-axis. After preliminary calls at the upper left, there are 93 parallel calls to subsearches done on 93 different servers (not all shown). These take varying amounts of time to return, from about 30 to 120 milliseconds. One in particular takes about four times longer than the rest. The top-level server executes very little code and is mostly waiting for this straggler to finish. Without observing these cross-server dynamics, we have no idea why the total query takes so long. But even with good RPC tools such as Dapper12 and its lookalikes, the question remains why an individual server doing a CPU-bound piece of the work takes four times longer than others doing nearly identical work.</p> 
+  <img src="/images/sites1.png" width="720" height="704">
   </div>
   
 </body>
