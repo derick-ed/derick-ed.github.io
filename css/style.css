@@ -6,15 +6,18 @@ body {
       font-style: normal;
       color: rgb(29, 29, 31);
       margin: auto;
+      
       } 
  
+ h1,h2,h3 {font-weight: normal;}
 p  {line-height: 25px;}
   
 div.header a { text-decoration: none; color: inherit;}
-div.header {
-         margin-top: 5vh;
-         line-height: 10px;
-           }
+
+
+
+
+
   
 @media only screen and (max-width: 820px) {
 
