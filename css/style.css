@@ -6,7 +6,7 @@ body {
        } 
   
 div.header a { text-decoration: none; color: inherit;}
-div.header h2{font-weight: normal;}
+div.header h2{font-weight: normal;margin-top: 1em;}
 p{line-height: 1.5em;}
 h2,h3{margin-top: 2em;}
 pre {color: white;background-color: #272822;font-size: 13px;padding: 1%;}
